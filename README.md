@@ -29,3 +29,13 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+**How It Works!**
+1. Run both the frontend and backend code.
+2. Open http://localhost:3000 in your browser.
+3. Enter the URL of the website you want to scrape data from in the highlighted input box like below Image and then click on Feth & save Detail button.
+![alt text](image.png)
+4. After some time your website details shown in below table like below Image
+![alt text](image-1.png)
+5. when you click on that company tab you will see that company information in detail like below Image
+![alt text](image-2.png)
