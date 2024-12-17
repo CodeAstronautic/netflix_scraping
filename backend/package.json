@@ -1,0 +1,22 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "mongoose": "^8.9.0",
+    "nodemon": "^3.1.9",
+    "puppeteer": "^23.10.4"
+  }
+}
