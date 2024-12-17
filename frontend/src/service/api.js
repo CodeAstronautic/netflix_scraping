@@ -34,9 +34,7 @@ export const postData = async (payload) => {
 
 export const deleteData = async (payload) => {
     try {
-        const response = await axios.delete(`${API_BASE_URL}/companies/delete-multiple-company`, {
-            data: payload
-        });
+        const response = await axios.delete(`${API_BASE_URL}/companies/delete-multiple-company`, { data: payload });
         return response.data;
     } catch (error) {
         console.error("Error deleting data:", error);

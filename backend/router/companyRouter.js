@@ -13,7 +13,4 @@ router.delete('/delete-multiple-company', companyController.deleteMultipleCompan
 
 router.get('/:id', companyController.getCompanieById);
 
-
-
-
 module.exports = router;
